@@ -14,7 +14,7 @@ const Section = styled.section`
 const Title = styled.h1`
   font-size: ${(props) => props.theme.fontxxl};
   text-transformation: capitalize;
-  color: ${(props) => props.theme.text};
+  color:#d7a3ff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -210,7 +210,7 @@ const Roadmap = () => {
 
   return (
     <Section id="roadmap" className="block1">
-      <Title>ROADMAP</Title>
+      <Title className="roadmap__tilte">ROADMAP</Title>
       <Container>
         <SvgContainer>
           <DrawSvg />

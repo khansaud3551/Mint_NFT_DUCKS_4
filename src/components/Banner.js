@@ -16,11 +16,11 @@ function Banner() {
             <source src="/videos/party.mp4" type="video/mp4" />
           </video>
 
-          <div className="mainText block wrap mt-0">
+          <div className="party__time mainText block wrap mt-0 mb-4 ">
             <h2 className="my-3">PARTY TIME!</h2>
             <p>The zen bath party is now open!</p>
             <div className="flex">
-              <a href="/zen" className="button orange">
+              <a href="/zen" className="button red">
                 GO PARTY
               </a>
             </div>

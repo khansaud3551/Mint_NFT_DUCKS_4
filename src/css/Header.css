@@ -4,24 +4,34 @@
   left: 0;
   z-index: 2;
   width: 100%;
-  background: #ffe233;
+  background: LINEAR-GRADIENT(206deg, #040421c7, #1a1a5a6c, #040421a1);
+  backdrop-filter: blur(10px);
   text-align: left;
-  border-bottom: 2px solid #400000;
   height: 60px;
+  border: none;
   display: flex;
   justify-content: space-between;
   align-content: center;
   box-sizing: border-box;
+  box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.47);
   padding: 0 10px;
 }
 
-.header > div {
+.header>div {
   display: flex;
   align-items: center;
 }
 
 .left {
   text-align: left;
+}
+
+.party__time {
+  margin: 30px 0px;
+}
+
+.bathParties>.left>h1 {
+  color: #d7a3ff;
 }
 
 .header .logo {
@@ -62,7 +72,7 @@
 }
 
 a {
-  color: #400000 !important;
+  color: white;
   cursor: url(/public/images/cursor.svg), auto;
 }
 
@@ -100,7 +110,8 @@ a {
 .header .right {
   justify-content: flex-end;
 }
-.header > div {
+
+.header>div {
   display: flex;
   align-items: center;
 }
@@ -167,6 +178,7 @@ a {
   margin: 0;
   line-height: 40px;
 }
+
 .button.small {
   height: auto;
   padding: 10px 12px;
@@ -190,17 +202,28 @@ a {
 }
 
 .mainText {
-  background: linear-gradient(45deg, #00003c, #2a2aa7, #0b0b38);
   margin-top: -2px;
 }
+
 .block {
   color: white;
   margin: 0 auto;
-  padding: 60px 60px 50px;
   box-sizing: border-box;
-  border: 2px solid #ffffff;
+  padding: 70px 30px;
+  border: 5px solid #00205f;
   position: relative;
-  margin-top: 2%;
+  border-radius: 30px;
+  box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.253);
+  background: linear-gradient(#00003c,
+      #00246c,
+      #0b0b38);
+      margin-top: 30px;
+}
+.block > h1{
+  color: #d7a3ff;
+}
+.block > h2{
+  color: #d7a3ff;
 }
 
 .simulationImages img {
@@ -213,15 +236,17 @@ a {
   margin: 0;
   margin-top: 10px;
 }
+
 .button.red {
-  background: linear-gradient(45deg, #7676ff, #ffaef5, #ffdb75);
-  background-image: linear-gradient(
-    45deg,
-    rgb(118, 118, 255),
-    rgb(255, 174, 245),
-    rgb(255, 219, 117)
-  );
-  color: white;
+  background: #d7a3ffa4;
+  color: #ffffff;
+  transition: 0.25s;
+  border: none;
+}
+
+.button.red:hover {
+  box-shadow: 0px 20px 40px #d7a3ff4e;
+  background: #d7a3ff;
 }
 
 .simulationImages .images {
@@ -248,15 +273,15 @@ p {
 .bathParties {
   color: white;
   background: #040440;
-  border-image: linear-gradient(45deg, #7676ff, #ffaef5, #ffdb75);
-  border-style: solid;
-  border-width: 2px;
-  border-image-slice: 2;
-  border-radius: 25px !important;
+  border-radius: 25px;
   text-align: left;
   justify-content: space-between;
   align-items: flex-start;
   display: flex;
+  padding: 85px 40px;
+  border: 5px solid #00205f;
+  margin-top: 30px;
+  box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.297);
 }
 
 .simulationImages {
@@ -282,6 +307,18 @@ p {
   position: relative;
   margin-top: 2%;
   color: white;
+  padding: 50px 10px;
+  border: 5px solid #00205f;
+  margin-top: 30px;
+  border-radius: 30px;
+  box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.253);
+  background: linear-gradient(#00003c,
+      #00246c,
+      #0b0b38);
+}
+
+.roadmap__tilte>Title {
+  color: #d7a3ff;
 }
 
 /* //footer */
