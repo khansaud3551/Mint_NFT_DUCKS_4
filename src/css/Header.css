@@ -190,14 +190,15 @@ a {
 }
 
 .mainText {
-  background: #ffe233;
+  background: linear-gradient(45deg, #00003c, #2a2aa7, #0b0b38);
   margin-top: -2px;
 }
 .block {
+  color: white;
   margin: 0 auto;
   padding: 60px 60px 50px;
   box-sizing: border-box;
-  border: 2px solid #400000;
+  border: 2px solid #ffffff;
   position: relative;
   margin-top: 2%;
 }
@@ -213,7 +214,13 @@ a {
   margin-top: 10px;
 }
 .button.red {
-  background: #ff426e;
+  background: linear-gradient(45deg, #7676ff, #ffaef5, #ffdb75);
+  background-image: linear-gradient(
+    45deg,
+    rgb(118, 118, 255),
+    rgb(255, 174, 245),
+    rgb(255, 219, 117)
+  );
   color: white;
 }
 
@@ -239,7 +246,13 @@ p {
 }
 
 .bathParties {
-  background: white;
+  color: white;
+  background: #040440;
+  border-image: linear-gradient(45deg, #7676ff, #ffaef5, #ffdb75);
+  border-style: solid;
+  border-width: 2px;
+  border-image-slice: 2;
+  border-radius: 25px !important;
   text-align: left;
   justify-content: space-between;
   align-items: flex-start;
@@ -265,9 +278,10 @@ p {
 .block1 {
   padding: 50px 0px;
   box-sizing: border-box;
-  border: 2px solid #400000;
+  border: 2px solid #ffffff;
   position: relative;
   margin-top: 2%;
+  color: white;
 }
 
 /* //footer */
