@@ -51,14 +51,13 @@ export default class Faqs extends Component {
           animate={true}
           styles={{
             bgColor: "#ffe233",
-            titleTextColor: "#48482a",
-            rowTitleColor: "#78789a",
+            titleTextColor: "#ffff",
+            rowTitleColor: "#ffff",
             rowTitleTextSize: "large",
-            rowContentColor: "#48484a",
+            rowContentColor: "#ffff",
             rowContentTextSize: "16px",
             rowContentPaddingTop: "10px",
             rowContentPaddingBottom: "10px",
-
             rowContentPaddingRight: "150px",
             arrowColor: "black",
           }}
