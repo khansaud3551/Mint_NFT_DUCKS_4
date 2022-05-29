@@ -14,7 +14,7 @@ const Section = styled.section`
 const Title = styled.h1`
   font-size: ${(props) => props.theme.fontxxl};
   text-transformation: capitalize;
-  color:#d7a3ff;
+  color: ${(props) => props.theme.text};
   display: flex;
   justify-content: center;
   align-items: center;

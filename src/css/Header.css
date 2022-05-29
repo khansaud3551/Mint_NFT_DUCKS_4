@@ -4,7 +4,7 @@
   left: 0;
   z-index: 2;
   width: 100%;
-  background: LINEAR-GRADIENT(206deg, #040421c7, #1a1a5a6c, #040421a1);
+  background: LINEAR-GRADIENT(206deg, #f3b1cd, #f8d7e8, #f3b1cd);
   backdrop-filter: blur(10px);
   text-align: left;
   height: 60px;
@@ -17,7 +17,7 @@
   padding: 0 10px;
 }
 
-.header>div {
+.header > div {
   display: flex;
   align-items: center;
 }
@@ -30,8 +30,8 @@
   margin: 30px 0px;
 }
 
-.bathParties>.left>h1 {
-  color: #d7a3ff;
+.bathParties > .left > h1 {
+  color: var(--text);
 }
 
 .header .logo {
@@ -64,11 +64,13 @@
 
 .nav a {
   text-decoration: none;
-  font-family: "Syncopate";
-  font-size: 16px;
+  font-family: "Grandstander", cursive;
+  font-size: 24px;
+
   padding: 8px;
   font-weight: 700;
   transition: all 0.1s;
+  color: var(--text);
 }
 
 a {
@@ -79,6 +81,8 @@ a {
 .nav {
   margin: 0 2px 0 8px;
   display: flex;
+  gap: 4px;
+  font-weight: 900 !important;
 }
 
 .player {
@@ -111,13 +115,13 @@ a {
   justify-content: flex-end;
 }
 
-.header>div {
+.header > div {
   display: flex;
   align-items: center;
 }
 
 .button {
-  background: white;
+  color: var(--text);
   background-image: initial;
   background-position-x: initial;
   background-position-y: initial;
@@ -127,7 +131,7 @@ a {
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
-  background-color: white;
+
   text-transform: uppercase;
   text-decoration: none;
   text-decoration-line: none;
@@ -135,7 +139,7 @@ a {
   text-decoration-style: initial;
   text-decoration-color: initial;
   padding: 14px 30px;
-  font-family: "Syncopate";
+
   margin: 10px;
   font-weight: 700;
   font-size: 20px;
@@ -182,6 +186,7 @@ a {
 .button.small {
   height: auto;
   padding: 10px 12px;
+
   box-shadow: inset 0 -6px rgb(64 0 0 / 10%);
   margin: 6px;
   font-size: 14px;
@@ -206,24 +211,19 @@ a {
 }
 
 .block {
-  color: white;
   margin: 0 auto;
   box-sizing: border-box;
   padding: 70px 30px;
-  border: 5px solid #00205f;
+  border: 5px solid var(--text);
   position: relative;
   border-radius: 30px;
-  box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.253);
-  background: linear-gradient(#00003c,
-      #00246c,
-      #0b0b38);
-      margin-top: 30px;
+  background: #ffdfba;
+  margin-top: 30px;
 }
-.block > h1{
-  color: #d7a3ff;
+.block > h1 {
+  color: var(--text);
 }
-.block > h2{
-  color: #d7a3ff;
+.block > h2 {
 }
 
 .simulationImages img {
@@ -238,15 +238,18 @@ a {
 }
 
 .button.red {
-  background: #d7a3ffa4;
-  color: #ffffff;
+  background-color: var(--text);
   transition: 0.25s;
   border: none;
+  color: white;
+  border: 3px solid transparent;
 }
 
 .button.red:hover {
   box-shadow: 0px 20px 40px #d7a3ff4e;
-  background: #d7a3ff;
+  background: #baffc9;
+  color: var(--text);
+  border: 3px solid var(--text);
 }
 
 .simulationImages .images {
@@ -271,17 +274,16 @@ p {
 }
 
 .bathParties {
-  color: white;
-  background: #040440;
+  background: #baffc9;
   border-radius: 25px;
   text-align: left;
   justify-content: space-between;
   align-items: flex-start;
   display: flex;
   padding: 85px 40px;
-  border: 5px solid #00205f;
+  border: 5px solid var(--text);
   margin-top: 30px;
-  box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.297);
+  /* box-shadow: 0px 40px 60px var(--text); */
 }
 
 .simulationImages {
@@ -306,18 +308,15 @@ p {
   border: 2px solid #ffffff;
   position: relative;
   margin-top: 2%;
-  color: white;
   padding: 50px 10px;
-  border: 5px solid #00205f;
+  border: 5px solid var(--text);
   margin-top: 30px;
   border-radius: 30px;
-  box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.253);
-  background: linear-gradient(#00003c,
-      #00246c,
-      #0b0b38);
+
+  background-color: #ffffba;
 }
 
-.roadmap__tilte>Title {
+.roadmap__tilte > Title {
   color: #d7a3ff;
 }
 

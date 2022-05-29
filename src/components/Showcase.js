@@ -59,7 +59,7 @@ const Row = styled.div`
 const ImgContainer = styled.div`
   width: 15rem;
   margin: 0 1rem;
-  background-color: ${(props) => props.theme.body};
+  background-color: #ccff88;
 
   border-radius: 20px;
   cursor: pointer;

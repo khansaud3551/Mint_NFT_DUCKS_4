@@ -9,6 +9,7 @@
   --old: #1f7210;
   --white: #ffffff;
   --dark: black;
+  --text: #400000;
   /* #1f7210 */
 }
 
@@ -31,15 +32,7 @@ body {
     #79ff24,
     #3fff36
   ); */
-  background: linear-gradient(
-    45deg,
-    #000024,
-    #00205f,
-    #000c24,
-    #000024,
-    #00205f,
-    #000c24
-  );
+  background: LINEAR-GRADIENT(206deg, #f7a5c8, #f3c3dc, #ff9cc6);
   /* background-image: linear-gradient(315deg, #f8ef42 0%, #0fd64f 74%); */
 
   color: #400000;
@@ -52,14 +45,14 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Syncopate", sans-serif;
+  font-family: "Grandstander", cursive;
 }
 
 h4,
 h5,
 h6,
 p {
-  font-family: "Readex Pro", sans-serif;
+  font-family: "Grandstander", cursive;
   font-size: 24px;
 }
 
@@ -95,7 +88,7 @@ h2 {
 }
 
 .showcase_bot {
-  background-color: lightblue;
+  background-color: #ffffba;
   line-height: 1.1;
 }
 
@@ -125,7 +118,7 @@ h2 {
   padding: 5px 20px;
 }
 
-.styles_row-title-text__1MuhU{
+.styles_row-title-text__1MuhU {
   color: #ffffff !important;
 }
 section.faq-row.styles_faq-row__2YF3c {
@@ -144,49 +137,49 @@ section.faq-row.styles_faq-row__2YF3c {
 }
 
 div#react-faq-rowtitle-1 {
-  font-family: Syncopate;
+  font-family: "Grandstander", cursive;
   text-transform: uppercase;
   color: #400000;
   font-size: 24px;
 }
 
 div#react-faq-rowtitle-2 {
-  font-family: Syncopate;
+  font-family: "Grandstander", cursive;
   text-transform: uppercase;
   color: #400000;
   font-size: 24px;
 }
 
 div#react-faq-rowtitle-3 {
-  font-family: Syncopate;
+  font-family: "Grandstander", cursive;
   text-transform: uppercase;
   color: #400000;
   font-size: 24px;
 }
 
 div#react-faq-rowtitle-4 {
-  font-family: Syncopate;
+  font-family: "Grandstander", cursive;
   text-transform: uppercase;
   color: #400000;
   font-size: 24px;
 }
 
 div#react-faq-rowtitle-5 {
-  font-family: Syncopate;
+  font-family: "Grandstander", cursive;
   text-transform: uppercase;
   color: #400000;
   font-size: 24px;
 }
 
 div#react-faq-rowtitle-6 {
-  font-family: Syncopate;
+  font-family: "Grandstander", cursive;
   text-transform: uppercase;
   color: #400000;
   font-size: 24px;
 }
 
 div#react-faq-rowtitle-7 {
-  font-family: Syncopate;
+  font-family: "Grandstander", cursive;
   text-transform: uppercase;
   color: #400000;
   font-size: 24px;
@@ -196,7 +189,7 @@ div#react-faq-rowtitle-7 {
   margin: 0;
   color: var(--title-text-color, black);
   font-size: 80px !important;
-  color: #d7a3ff!important;
+  color: #d7a3ff !important;
   margin-bottom: 15px !important;
 }
 
