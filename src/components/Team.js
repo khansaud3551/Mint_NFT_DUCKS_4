@@ -1,4 +1,8 @@
 import React from "react";
+import img1 from "../assets/Nfts/pigoen-1.png";
+import img2 from "../assets/Nfts/pigoen-2.png";
+import img3 from "../assets/Nfts/pigoen-6.png";
+import img4 from "../assets/Nfts/pigoen-5.png";
 
 function Team() {
   return (
@@ -15,13 +19,11 @@ function Team() {
         <div className="teamGrid">
           <a
             className="member"
+            data-aos="zoom-out"
             target="_blank"
             href="https://twitter.com/jishai"
           >
-            <img
-              className="avatar"
-              src="	https://duck.art/img/team-jishai.png"
-            />
+            <img className="avatar" src={img1} />
             <h2>JISHAI</h2>
             <p className="m-0">Tech</p>
             <div className="handle">
@@ -34,36 +36,33 @@ function Team() {
           </a>
           <a
             className="member"
+            data-aos="zoom-out"
             target="_blank"
             href="https://twitter.com/thegalshir"
           >
-            <img
-              className="avatar"
-              src="https://duck.art/img/team-jishai.png"
-            />
+            <img className="avatar" src={img2} />
             <h2>Gal</h2>
             <p className="m-0">Art</p>
             <div className="handle">@thegalshir</div>
           </a>
           <a
             className="member"
+            data-aos="zoom-out"
             target="_blank"
             href="https://twitter.com/lazylizzyyyy"
           >
-            <img className="avatar" src="	https://duck.art/img/team-gal.png?2" />
+            <img className="avatar" src={img3} />
             <h2>Lizzy</h2>
             <p className="m-0">Community</p>
             <div className="handle">@lazylizzyyy</div>
           </a>
           <a
             className="member"
+            data-aos="zoom-out"
             target="_blank"
             href="https://twitter.com/rafaelfrost"
           >
-            <img
-              className="avatar"
-              src="	https://duck.art/img/team-rafael.png"
-            />
+            <img className="avatar" src={img4} />
             <h2>Rafael</h2>
             <p className="m-0">Music</p>
             <div className="handle">
@@ -79,8 +78,9 @@ function Team() {
 
       <div className="footer wrap">
         <span>
-          Verified contract:{" "}
+          Verified contract :
           <a
+            className="lin"
             target="_blank"
             href="https://etherscan.io/address/0x7a4d1b54dd21dde804c18b7a830b5bc6e586a7f6"
           >

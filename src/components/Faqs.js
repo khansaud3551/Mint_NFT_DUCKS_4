@@ -45,7 +45,7 @@ const data = {
 export default class Faqs extends Component {
   render() {
     return (
-      <div className="block">
+      <div className="block faqs">
         <Faq
           data={data}
           animate={true}

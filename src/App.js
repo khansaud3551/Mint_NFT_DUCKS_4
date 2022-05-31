@@ -17,15 +17,18 @@ import Showcase from "./components/Showcase";
 import Faqs from "./components/Faqs";
 import Team from "./components/Team";
 import Freeze from "./components/Freeze";
+import RoadMap2 from "./components/RoadMap2";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
-  // useEffect(() => {
-  //   AOS.init({
-  //     duration: 1000,
-  //     easing: "ease-in-out-cubic",
-  //     mirror: true,
-  //   });
-  // }, []);
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: "ease-in-out-cubic",
+      mirror: true,
+    });
+  }, []);
 
   return (
     <div className="App">
@@ -38,7 +41,8 @@ function App() {
                 <Home />
                 <Banner />
 
-                <Roadmap />
+                {/* <Roadmap /> */}
+                <RoadMap2 />
               </div>
               <Showcase />
               <div className="margin_cont">

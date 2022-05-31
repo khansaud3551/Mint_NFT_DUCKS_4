@@ -34,9 +34,14 @@
   color: var(--text);
 }
 
+.logo > img {
+  border-radius: 50%;
+}
+
 .header .logo {
   height: 43px;
   margin-left: 8px;
+  border-radius: 50%;
 }
 
 .header .hamburger .symbol {
@@ -45,11 +50,6 @@
 
 .header .logo img {
   max-height: 100%;
-}
-
-.player .title {
-  font-size: 14px;
-  font-weight: 700;
 }
 
 .player .new-badge {
@@ -85,33 +85,7 @@ a {
   font-weight: 900 !important;
 }
 
-.player {
-  height: 40px;
-  margin-left: 2px;
-  display: flex;
-  align-items: center;
-  font-size: 10px;
-}
-
-.header .icon {
-  padding: 6px 3px;
-  display: flex;
-  transition: all 0.1s;
-}
-
-.player .icon {
-  cursor: url(/public/images/cursor.svg), auto;
-  margin-right: 4px;
-}
-
-.player .icon img[icon="on"] {
-  display: none;
-  animation-name: beat;
-  animation-duration: 0.5s;
-  animation-iteration-count: infinite;
-}
-
-.header .right {
+.header .right1 {
   justify-content: flex-end;
 }
 
@@ -274,7 +248,8 @@ p {
 }
 
 .bathParties {
-  background: #baffc9;
+  /* background: #baffc9; */
+  background: #fffabb;
   border-radius: 25px;
   text-align: left;
   justify-content: space-between;
@@ -323,7 +298,8 @@ p {
 /* //footer */
 
 .footer {
-  font-size: 12px;
+  font-family: "Grandstander";
+  font-size: 14px;
   margin-top: 20px;
   padding: 14px 14px 32px 14px;
   text-align: left;
@@ -331,6 +307,15 @@ p {
   justify-content: space-between;
   text-align: center;
   opacity: 0.9;
+  color: var(--text);
+}
+
+.footer > a {
+  font-size: 14px;
+  color: var(--text);
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 /* //menue */

@@ -219,9 +219,30 @@ const Roadmap = () => {
           <Item>&nbsp;</Item>
           <RoadMapItem
             addToRef={addToRefs}
-            title="Grand Opening"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit."
+            title="Phase One"
+            subtext={
+              <React.Fragment>
+                <ul>
+                  <li>
+                    20 % of minting price will go to the project team to support
+                    this project on longer terms.
+                  </li>
+                  <li>
+                    80 % of minting price will go to the charity firm edhi-pige
+                    where the charity firm will support at least 1,000 family by
+                    starting small businesses for the families.
+                  </li>
+                  <li>
+                    Since the firm is helping families in starting businesses
+                    there will be a % shares in return to the firm which will go
+                    back to token holders as staking reward a (monthly passive
+                    income) 😊
+                  </li>
+                </ul>
+              </React.Fragment>
+            }
           />
+
           <RoadMapItem
             addToRef={addToRefs}
             title="Great Benefits"

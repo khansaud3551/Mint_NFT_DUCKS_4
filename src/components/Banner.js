@@ -1,4 +1,5 @@
 import React from "react";
+import img1 from "../assets/Nfts/pigoen-2.png";
 
 function Banner() {
   return (
@@ -31,9 +32,9 @@ function Banner() {
       <div className="bathParties block wrap flex">
         <div className="left">
           <h1>
-            BATH
+            Bath
             <br />
-            PARTIES
+            Parties
           </h1>
           <p>
             Every once in a while your duck will be invited to a bath party. As
@@ -52,10 +53,7 @@ function Banner() {
         </div>
         <div className="simulationImages">
           <div className="images">
-            <img
-              className="duck"
-              src="https://duck.art/img/party-simulation/rdbp-simulation-21.png"
-            />
+            <img className="duck" src={img1} />
             <div className="bubbles">
               <div className="bubble" />
               <div className="bubble" />
