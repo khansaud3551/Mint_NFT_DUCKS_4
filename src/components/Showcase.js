@@ -127,7 +127,7 @@ const NftItem = ({ img, number = 0, price = 0, passRef }) => {
 
   return (
     <ImgContainer
-      className="showcase_div"
+      className="showcase_div collection"
       onMouseOver={(e) => pause(e)}
       onMouseOut={(e) => play(e)}
     >

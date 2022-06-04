@@ -1,12 +1,13 @@
 import React from "react";
 import img1 from "../assets/Nfts/pigoen-2.png";
+import { motion } from "framer-motion";
 
 function Banner() {
   return (
     <>
       <div>
         <div className="videoContainer wrap">
-          <video
+          {/* <video
             className="mainVideo"
             height="auto"
             autoPlay
@@ -15,7 +16,16 @@ function Banner() {
             __idm_id__={442369}
           >
             <source src="/videos/party.mp4" type="video/mp4" />
-          </video>
+          </video> */}
+
+          <motion.img
+            initial={{ y: -1000 }}
+            animate={{ y: 0 }}
+            transition={{ duration: 4 }}
+            className="w-100 mt-5"
+            src="/videos/banner.png"
+            alt=""
+          />
 
           <div className="party__time mainText block wrap mt-0 mb-4 ">
             <h2 className="my-3">PARTY TIME!</h2>

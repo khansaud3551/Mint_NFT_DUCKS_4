@@ -297,6 +297,7 @@ section.faq-row.styles_faq-row__2YF3c {
     .styles_row-content__QOGZd
     .styles_row-content-text__2sgAB {
     padding: 0px !important;
+    font-size: 18px !important;
   }
 
   .bathParties {
@@ -347,6 +348,87 @@ section.faq-row.styles_faq-row__2YF3c {
 @media (max-width: 48em) {
   .kXMyEy {
     width: 95% !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  div#react-faq-rowtitle-1 {
+    font-family: "Grandstander", cursive;
+    text-transform: uppercase;
+    color: #400000;
+    font-size: 24px !important;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .time-container {
+    width: 100%;
+    padding-top: 0px;
+    left: 0%;
+    padding: 10px 10px !important;
+    position: relative;
+    background-color: inherit;
+  }
+
+  div#react-faq-rowtitle-2 {
+    font-family: "Grandstander", cursive;
+    text-transform: uppercase;
+    color: #400000;
+    font-size: 24px !important;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  div#react-faq-rowtitle-3 {
+    font-family: "Grandstander", cursive;
+    text-transform: uppercase;
+    color: #400000;
+    font-size: 24px !important;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  div#react-faq-rowtitle-4 {
+    font-family: "Grandstander", cursive;
+    text-transform: uppercase;
+    color: #400000;
+    font-size: 24px !important;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  div#react-faq-rowtitle-5 {
+    font-family: "Grandstander", cursive;
+    text-transform: uppercase;
+    color: #400000;
+    font-size: 24px !important;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  div#react-faq-rowtitle-6 {
+    font-family: "Grandstander", cursive;
+    text-transform: uppercase;
+    color: #400000;
+    font-size: 24px !important;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .phase__title {
+    font-size: 26px !important;
+    font-weight: 700;
+
+    text-align: center;
+  }
+
+  div#react-faq-rowtitle-7 {
+    font-family: "Grandstander", cursive;
+    text-transform: uppercase;
+    color: #400000;
+    font-size: 24px !important;
+    font-weight: 700;
+    text-align: left;
   }
 }
 

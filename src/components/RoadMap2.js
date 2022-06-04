@@ -3,7 +3,7 @@ import "../css/Roadmap.css";
 
 function RoadMap2() {
   return (
-    <div className="block">
+    <div className="block roadmap">
       <h1 className="title__main ">Roadmap</h1>
       <div id="timeline" className="time-body">
         <div className="timeline">
