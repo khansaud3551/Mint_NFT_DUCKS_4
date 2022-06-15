@@ -3,8 +3,9 @@ import img1 from "../assets/Nfts/pigoen-1.png";
 import img2 from "../assets/Nfts/pigoen-2.png";
 import img3 from "../assets/Nfts/pigoen-6.png";
 import img4 from "../assets/Nfts/pigoen-5.png";
+import { Link } from "react-router-dom";
 
-function Team() {
+function Team({ home, setHome }) {
   return (
     <>
       <div className="block">
@@ -76,7 +77,7 @@ function Team() {
         </div>
       </div>
 
-      <div className="footer wrap">
+      <div className="footer wrap block__footer">
         <span>
           Verified contract :
           <a
@@ -87,7 +88,13 @@ function Team() {
             0x7a4d1b54dd21dde804c18b7a830b5bc6e586a7f6s
           </a>
         </span>
-        <a href="/terms">Terms &amp; Conditions</a>
+        <Link
+          onClick={() => setHome(true)}
+          to="/termsandconditions"
+          className="st__Link"
+        >
+          Terms &amp; Conditions
+        </Link>
       </div>
     </>
   );

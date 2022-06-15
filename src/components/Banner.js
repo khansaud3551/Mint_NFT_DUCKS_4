@@ -28,10 +28,21 @@ function Banner() {
           />
 
           <div className="party__time mainText block wrap mt-0 mb-4 ">
-            <h2 className="my-3">PARTY TIME!</h2>
-            <p>The zen bath party is now open!</p>
+            <h2 className="my-3">
+              {" "}
+              Building a strong community with a motive of giving back to the
+              world and community.
+            </h2>
+            <p>
+              Win a whitelist spot by taking part to one of our conte¬sts
+              (twitter / Instagram / Discord).
+            </p>
             <div className="flex">
-              <a href="/zen" className="button red">
+              <a
+                href="https://discord.gg/82vaX56W2v"
+                target="__blank"
+                className="button red"
+              >
                 GO PARTY
               </a>
             </div>
@@ -42,24 +53,23 @@ function Banner() {
       <div className="bathParties block wrap flex">
         <div className="left">
           <h1>
-            Bath
+            Edhi-Pige Message
             <br />
-            Parties
           </h1>
           <p>
-            Every once in a while your duck will be invited to a bath party. As
-            great parties go, your duck might come home with a third eye, a rare
-            crown, a regrettable tattoo or a refreshed background.
+            We have a simple goal in mind; to adopt a community first approach
+            that holds a safe-space for all members. The process is simple but
+            efficient. Peace, love, and kindness toward others is a big part of
+            who we are. That’s why our main objective is built around “how much
+            value can we bring to our community?”.
           </p>
           <p>
-            However, your duck might get too high and could lose that special
-            pearl necklace in the bathroom, give their beanie to their crush, or
-            even end up naked.
+            As this is a community driven project, we will be onboarding
+            enthusiastic members of the community from day one. we plan on
+            hosting AMA’s, organizing events, and always maintaining 100%
+            transparency.
           </p>
-          <p>
-            As a responsible duck parent, the decision is yours. Keep your duck
-            at home or take a chance and let them have a little fun.
-          </p>
+          <p></p>
         </div>
         <div className="simulationImages">
           <div className="images">
@@ -79,7 +89,7 @@ function Banner() {
             /> */}
           </div>
           <div className="button red party" status="active">
-            GO PARTY!
+            JOIN PARTY!
           </div>
         </div>
       </div>

@@ -1,31 +1,3 @@
-/* .header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  width: 100%;
-  background: LINEAR-GRADIENT(206deg, #f3b1cd, #f8d7e8, #f3b1cd);
-  backdrop-filter: blur(10px);
-  text-align: left;
-  height: 60px;
-  border: none;
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  box-sizing: border-box;
-  box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.47);
-  padding: 0 10px;
-} */
-
-/* .header > div {
-  display: flex;
-  align-items: center;
-} */
-
-/* .left {
-  text-align: left;
-} */
-
 .party__time {
   margin: 30px 0px;
 }
@@ -37,20 +9,6 @@
 .logo > img {
   border-radius: 50%;
 }
-
-/* .header .logo {
-  height: 43px;
-  margin-left: 8px;
-  border-radius: 50%;
-} */
-
-/* .header .hamburger .symbol {
-  font-size: 24px;
-}
-
-.header .logo img {
-  max-height: 100%;
-} */
 
 .player .new-badge {
   font-size: 9px;
@@ -66,7 +24,6 @@
   text-decoration: none;
   font-family: "Grandstander", cursive;
   font-size: 24px;
-
   padding: 8px;
   font-weight: 700;
   transition: all 0.1s;
@@ -75,7 +32,6 @@
 
 a {
   color: white;
-  cursor: url(/public/images/cursor.svg), auto;
 }
 
 .nav {
@@ -116,7 +72,7 @@ a {
   border-left-color: rgb(64, 0, 0);
   border-left-style: solid;
   border-left-width: 2px;
-  cursor: url(/public/images/cursor.svg), auto;
+  cursor: url(/public/images/cursorr2.svg), auto;
   box-shadow: inset 0 -8px rgb(64 0 0 / 10%);
   transition: all 0.05s;
   display: inline-flex;
@@ -236,8 +192,8 @@ a {
 }
 
 .button.red:hover {
-  box-shadow: 0px 20px 40px #d7a3ff4e;
-  background: #baffc9;
+  box-shadow: 15px 14px 43px #ffffffd1;
+  background: #fffabb;
   color: var(--text);
   border: 3px solid var(--text);
 }
@@ -274,6 +230,8 @@ p {
   padding: 85px 40px;
   border: 5px solid var(--text);
   margin-top: 30px;
+  display: flex;
+  align-items: center;
   /* box-shadow: 0px 40px 60px var(--text); */
 }
 
@@ -317,13 +275,14 @@ p {
   font-family: "Grandstander";
   font-size: 14px;
   margin-top: 20px;
-  padding: 14px 14px 32px 14px;
+  padding: 16px 30px 16px 30px;
   text-align: left;
   display: flex;
   justify-content: space-between;
   text-align: center;
   opacity: 0.9;
   color: var(--text);
+  margin-bottom: 5px;
 }
 
 .footer > a {
@@ -448,19 +407,20 @@ a:hover {
   } */
 
 .logo {
-  width: 76px;
+  width: 63px;
   border-radius: 50%;
+  margin-right: 10px;
 }
 
 .logo__title {
-  font-size: 45px;
+  font-size: 43px;
   font-weight: 600;
-  margin-top: 0px !important;
+  margin-top: 3px !important;
   color: white;
 }
 
 .logo__title:hover {
-  color: #f99b07;
+  color: #ffdfba;
   cursor: pointer;
 }
 
@@ -599,4 +559,10 @@ nav a.is-active {
     width: 0;
     overflow: hidden;
   }
+}
+
+.wrap__term {
+  max-width: 1800px;
+  /* margin: 0 auto; */
+  overflow: hidden;
 }

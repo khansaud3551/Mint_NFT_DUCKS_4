@@ -20,8 +20,13 @@ import Freeze from "./components/Freeze";
 import RoadMap2 from "./components/RoadMap2";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Terms from "./pages/Terms";
+import Header from "./components/Header";
+import { useState } from "react";
 
 function App() {
+  const [home, setHome] = useState(false);
+
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -32,6 +37,7 @@ function App() {
 
   return (
     <div className="App">
+      <Header home={home} setHome={setHome} />
       <Routes>
         <Route
           path="/"
@@ -48,11 +54,12 @@ function App() {
               <div className="margin_cont">
                 <Freeze />
                 <Faqs />
-                <Team />
+                <Team home={home} setHome={setHome} />
               </div>
             </>
           }
         ></Route>
+        <Route path="/termsandconditions" element={<Terms />}></Route>
       </Routes>
     </div>
   );

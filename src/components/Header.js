@@ -14,19 +14,11 @@ import "../css/Header.css";
 import $ from "jquery";
 import { ethers } from "ethers";
 
-const { createAlchemyWeb3 } = require("@alch/alchemy-web3");
-const web3 = createAlchemyWeb3(
-  "wss://eth-mainnet.alchemyapi.io/v2/yQpS7U702nxSlPVWdhyc9t-mGcwiDlV1"
-);
-
-function Header() {
+function Header({ home, setHome }) {
   const [errorMessage, setErrorMessage] = useState(null);
   const [defaultAccount, setDefaultAccount] = useState(null);
   const [userBalance, setUserBalance] = useState(null);
   const [connButtonText, setConnButtonText] = useState("Connect Wallet");
-  const [count, setCount] = useState(1);
-  const [amount, setAmount] = useState(0);
-  const [mintCost, setMintCost] = useState(0);
 
   const navbarLinks = useRef(null);
   const handleNavbarButton = (e) => {
@@ -106,7 +98,11 @@ function Header() {
         className="navbars"
       >
         <div className="navbar-container ">
-          <a href="#" className="d-flex align-items-center brand-title ">
+          <Link
+            to=""
+            className="d-flex align-items-center brand-title "
+            rel="noopener noreferrer"
+          >
             <motion.img
               initial={{ x: -1000 }}
               animate={{ x: 0 }}
@@ -132,18 +128,10 @@ function Header() {
               }}
               className="m-0 logo__title text-black"
             >
-              Pigeons
+              Edhi-Pige
             </motion.h1>
-          </a>
+          </Link>
 
-          {/* //old code */}
-          {/* <a href="#" className="brand-title">
-            <img
-              className="logo"
-              src="https://www.doodledogsnft.com/wp-content/uploads/2021/11/doodle-dogs-text-logo-blk-min-1024x199.png"
-              alt=""
-            />
-          </a> */}
           <button
             onClick={(e) => {
               handleNavbarButton(e);
@@ -154,6 +142,27 @@ function Header() {
           </button>
           <div ref={navbarLinks} className="navbar-links menu-collapse">
             <ul className="links-lists m-0">
+              {home ? (
+                <>
+                  <motion.a
+                    href="/"
+                    whileHover={{ scale: 1.2, color: "#f8e112", originX: 0 }}
+                    initial={{ y: 1000 }}
+                    animate={{ y: 0 }}
+                    transition={{
+                      type: "spring",
+
+                      stiffness: 120,
+                    }}
+                    className="nav-items nav-links"
+                  >
+                    Home
+                  </motion.a>
+                </>
+              ) : (
+                ""
+              )}
+
               <motion.li
                 whileHover={{ scale: 1.2, color: "#f8e112", originX: 0 }}
                 initial={{ y: 1000 }}
@@ -241,9 +250,10 @@ function Header() {
                 }}
               >
                 <a
-                  href="https://discord.gg/yPdUgrSfvF"
+                  href="https://discord.gg/82vaX56W2v"
                   target="_blank"
                   className="nav-links"
+                  rel="noopener noreferrer"
                 >
                   <i className="bi bi-discord nav__icon" />
                 </a>
@@ -258,7 +268,11 @@ function Header() {
                 }}
                 className="nav-items"
               >
-                <a href="https://twitter.com/CryptoFkers" target="_blank">
+                <a
+                  href="https://twitter.com/EdhiPige"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="bi bi-twitter nav__icon" />
                 </a>
               </motion.li>
@@ -276,6 +290,7 @@ function Header() {
                 <a
                   href="https://opensea.io/collection/cryptofkers"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

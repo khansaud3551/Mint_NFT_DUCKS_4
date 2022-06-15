@@ -5,39 +5,39 @@ const data = {
   title: "FAQS",
   rows: [
     {
-      title: "What are rubber ducks?",
+      title: "WHAT IS THE MAIN GOAL HERE?",
       content:
-        "Ducks are randomly generated and constructed from over 200 different components. Each duck is unique and minted as an NFT on the Ethereum blockchain. Rubber ducks are dynamic NFTs and can change their traits over time by attending parties! ",
+        "The goal of this collection is to help families in a way that they can earn a passive income on monthly basis by starting a small business.",
     },
     {
-      title: "What the tech?",
+      title: "WHO WILL MONITOR THE BUSINESS?",
       content:
-        "Rubber Ducks are stored as ERC-721 tokens on the Ethereum blockchain. After each party, the updated metadata and image will be uploaded to IPFS. The metadata includes all the historical versions of your duck, and all previous versions will be hosted on IPFS.",
+        "We are not just distributing the earned money away, there will be a 100% transparency of the businesses and collection on monthly basis on our website. There will be managers managing each businesses line.",
     },
 
     {
-      title: "What are bath parties?",
+      title: "HOW DO I EARN WITH EDHI-PIGE?",
       content:
-        "Rubber Ducks are stored as ERC-721 tokens on the Ethereum blockchain. After each party, the updated metadata and image will be uploaded to IPFS. The metadata includes all the historical versions of your duck, and all previous versions will be hosted on IPFS.",
+        "Despite the great art and fantastic community Edhi-pige is enabling holders earning monthly passive income by the % returned from the businesses of all families.",
     },
     {
-      title: "Wen party?",
-      content: "Should I send my duck to a party?",
+      title: "WHAT ARE EDHI-PIGE?",
+      content:
+        "Edhi-Pige are randomly generated and constructed from over X different components. Each pigeon is unique and minted as an NFT on the Ethereum blockchain. ",
     },
     {
-      title: "Do parties cost gas?",
+      title: "WHAT THE TECH?",
       content:
-        "Rubber Ducks are stored as ERC-721 tokens on the Ethereum blockchain. After each party, the updated metadata and image will be uploaded to IPFS. The metadata includes all the historical versions of your duck, and all previous versions will be hosted on IPFS.",
+        "Edhi-Pige is purely a block chained network, hosted on blockchain domain and are stored as ERC-721 tokens on the Ethereum blockchain. All the metadata are uploaded to IPFS.",
     },
     {
-      title: "Should I send my duck to a party?",
-      content:
-        "Rubber Ducks are stored as ERC-721 tokens on the Ethereum blockchain. After each party, the updated metadata and image will be uploaded to IPFS. The metadata includes all the historical versions of your duck, and all previous versions will be hosted on IPFS.",
+      title: "HOW TO BUY?",
+      content: "Minting will be only on our official website. ",
     },
     {
-      title: "My duck didn’t change after a party, help?",
+      title: "WILL THERE BE PUBLIC SALE?",
       content:
-        " Rubber Ducks are stored as ERC-721 tokens on the Ethereum blockchain. After each party, the updated metadata and image will be uploaded to IPFS. The metadata includes all the historical versions of your duck, and all previous versions will be hosted on IPFS.",
+        "Join our discord  be whitelisted there will be 5,000 whitelisted spots, for now we are keeping 1,666 spots for public minting, but this number may change based on community response.",
     },
   ],
 };

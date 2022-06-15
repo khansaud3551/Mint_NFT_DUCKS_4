@@ -143,7 +143,8 @@ const NftItem = ({ img, number = 0, price = 0, passRef }) => {
           <Price>
             <img className="img_eth" src={ETH} alt="ETH" />
             <h1 className="showcase_title mb-0 d-flex justify-content-end">
-              {Number(price).toFixed(1)}
+              {/* {Number(price).toFixed(1)} */}
+              ???
             </h1>
           </Price>
         </div>

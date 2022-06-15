@@ -15,34 +15,10 @@ function RoadMap2() {
               <p className="phase__content" data-aos="fade-up">
                 <div>
                   <br />
-                  <p>
-                    We have a simple goal in mind; to adopt a community first
-                    approach that holds a safe-space for all members. The
-                    process is simple but efficient. Peace, love and kindness
-                    toward others is a big part of who we are. That’s why our
-                    main objective is built around “how much value can we bring
-                    to our community?”. As this is a community driven project,
-                    we will be onboarding enthusiastic members of the community
-                    from day one. we plan on hosting AMA’s, organizing events,
-                    and maintaining 100% transparency at all times.
-                  </p>
-                  <br />
-
-                  <p>
-                    - Building a strong community with a motive of giving back
-                    to the world and community.
-                  </p>
-                  <br />
 
                   <p>
                     - <strong>Be whitelisted :</strong> Join our discord to earn
                     levels and use them to buy your whitelist spot.
-                  </p>
-                  <br />
-
-                  <p>
-                    - Win a whitelist spot by taking part to one of our contests
-                    (twitter / Instagram / Discord).
                   </p>
 
                   <br />
@@ -65,9 +41,9 @@ function RoadMap2() {
           <div className="time-container right">
             <div className="time-content" data-aos="fade-up">
               <h2 className="phase__title">
-                Phase One : (Minting of first 6,666 collections)
+                Phase II : (Minting of first 6,666 collections)
               </h2>
-              <p className="phase__content">
+              <p className="phase__content" data-aos="fade-up">
                 <div>
                   <br />
                   <p>
@@ -109,20 +85,20 @@ function RoadMap2() {
           </div>
 
           <div className="time-container right">
-            <div className="time-content">
+            <div className="time-content" data-aos="fade-up">
               <h2 className="phase__title">
-                Phase Two : (Dropping more collection of 4,444 items)
+                Phase III : (Dropping more collection of 4,444 items)
               </h2>
               <div className="phase__content" data-aos="fade-up">
                 <div>
                   <br />
                   <p>
-                    - • Project is dropping second phase of collection in
+                    - Project is dropping second phase of collection in
                     whitelisted minting.
                   </p>
                   <br />
                   <p>
-                    - • Since we are an established community now, whitelisting
+                    - Since we are an established community now, whitelisting
                     criteria will be different this time for 4,444 collections.
                   </p>
                   <br />
@@ -135,8 +111,8 @@ function RoadMap2() {
           </div>
 
           <div className="time-container right">
-            <div className="time-content">
-              <h2 className="phase__title">Phase Three :</h2>
+            <div className="time-content" data-aos="fade-up">
+              <h2 className="phase__title">Phase IV :</h2>
               <div className="phase__content" data-aos="fade-up">
                 <div>
                   <br />
@@ -159,8 +135,8 @@ function RoadMap2() {
           </div>
 
           <div className="time-container right">
-            <div className="time-content">
-              <h2 className="phase__title">Phase Five :</h2>
+            <div className="time-content " data-aos="fade-up">
+              <h2 className="phase__title">Phase V :</h2>
               <div className="phase__content" data-aos="fade-up">
                 <div>
                   <br />
@@ -183,8 +159,8 @@ function RoadMap2() {
           </div>
 
           <div className="time-container right">
-            <div className="time-content">
-              <h2 className="phase__title">Phase Six : </h2>
+            <div className="time-content" data-aos="fade-up">
+              <h2 className="phase__title">Phase VI : </h2>
               <div className="phase__content" data-aos="fade-up">
                 <div>
                   <br />
